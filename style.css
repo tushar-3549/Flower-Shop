@@ -1,0 +1,270 @@
+/* upper part start  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800;
+}
+
+.upper {
+    display: flex;
+    height: 100vh;
+    max-height: 851px;
+    background-color: #E554731A;
+    padding: 30px;
+}
+
+.left h1 {
+    font-size: 55px;
+}
+
+.red-btn {
+    background-color: #E55473;
+    color: #FFFFFF;
+    padding: 17px 40px;
+    border: 2px solid transparent;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.red-btn:hover {
+    background-color: transparent;
+    color: #E55473;
+    border-color: #E55473;
+}
+
+.right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex: 1;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.upper-text {
+    max-width: 500px;
+}
+
+.left .red-btn {
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+/* upper part end  */
+
+/* second part start  */
+.second-part {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.flower {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    gap: 30px;
+}
+
+.flower .product-image {
+    padding: 100px 60px 0;
+    background: rgba(167, 33, 98, 0.15);
+    height: 450px;
+    border-radius: 250px 250px 0 0;
+    /* Top-left corner, Top-right corner , Bottom-right corner,Bottom-left corner */
+}
+
+.product.two .product-image {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.product.three .product-image {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flower img {
+    width: 250px;
+    height: auto;
+    max-height: 350px;
+}
+.flower h4{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+
+/* second part end  */
+
+/* third part start  */
+.service-area{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #2727270D;
+    padding: 85px;
+    border-radius: 8px;
+}
+.service {
+    padding-bottom: 125px;
+    margin: 60px;
+}
+/* third part end  */
+
+
+/* forth part start  */
+.deal {
+    /* background-color: #E554730D; */
+    /* background-color:  rgb(37, 150, 190); */
+    background-color: rgb(254, 246, 248);
+    border-radius: 8px;
+    padding: 100px 0;
+}
+.deal-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.deal-description {
+    flex-basis: 55%;
+    padding-left: 160px;
+}
+.deal-description h2 {
+    font-size: 37px;
+}
+
+.deal-description h2 span {
+    color: #E55473;
+}
+.deal-description p {
+    padding: 24px 30px;
+}
+
+/* forth part end  */
+
+/* fifth part start  */
+section#instagram {
+    padding: 125px;
+}
+
+.instagram-post {
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.instagram-post {
+    flex-basis: 25%;
+}
+
+.instagram-post img {
+    width: 100%;
+}
+.section-title{
+    text-align: center;
+}
+.section-title h2{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+/* fifth part end  */
+
+
+/* sixth part start  */
+
+section#subscribe {
+    padding-bottom: 125px;
+}
+
+.subscription-detail {
+    background: url(images/Rectangle9.png) center center no-repeat;
+    background-size: cover;
+    padding: 125px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.subscription-detail h2 {
+    font-size: 40px;
+}
+
+.subscription-detail p {
+    margin: 16px 0 50px;
+}
+
+.subscription-detail input[type="email"] {
+    width: 700px;
+    padding: 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    color: #27272799;
+    margin-right: 16px;
+}
+
+.subscription-detail input[type="email"]:focus {
+    outline: none;
+}
+/* sixth part end  */
+
+
+/* last part footer start  */
+footer {
+    background-color: #111010;
+    text-align: center;
+    padding: 125px 0;
+}
+
+.footer-content {
+    width: 625px;
+    margin: 0 auto;
+}
+
+.footer-content h2 {
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.footer-content h2 span {
+    color: #E55473;
+}
+
+.footer-content p {
+    color: #FFFFFFE5;
+}
+
+.footer-content p.copy-right {
+    font-size: 16px;
+    margin-top: 32px;
+    color: #FFFFFF66;
+}
+/* last part footer end  */
